@@ -1,4 +1,4 @@
 const handleRequest = (request: Request) => {
- return new Response("Hi there!");
+ return new Response("Hi again!");
 };
 Deno.serve(handleRequest);
